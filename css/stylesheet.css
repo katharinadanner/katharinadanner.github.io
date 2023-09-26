@@ -1,17 +1,30 @@
 /* ALLGEMEIN */ 
+@font-face {
+    font-family: 'Alta';
+    src: url("font/alta-regular.otf") format("opentype");
+}
+
+p {
+    font-family: 'Alta';
+}
+
 h1  {
     /* Schrift */
     right: 2%;
     font-size: 2em !important;
     color: black;
-    font-family: Alta, sans-serif;
+    font-family: 'Alta', sans-serif;
     position: fixed;
 }
 
 .container {
     min-width: 100% !important;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(224, 232, 238);
+}
+
+.clear_nav_bar {
+    height: 105px;
 }
 
 div#content {
@@ -28,7 +41,7 @@ div#content {
 /* Navbar */
     nav.navbar {
         background-color: rgb(224, 232, 238) !important;
-        font-family: Alta, sans-serif;
+        font-family: 'Alta', sans-serif;
         box-shadow:20px 20px 50px -10px rgba(0,0,0,.5);
         position: fixed; 
         width: 100%;
