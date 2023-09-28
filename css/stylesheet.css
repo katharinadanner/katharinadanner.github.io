@@ -1,11 +1,6 @@
 /* ALLGEMEIN */ 
-@font-face {
-    font-family: 'Alta';
-    src: url("font/alta-regular.otf") format("opentype");
-}
-
 p {
-    font-family: 'Alta';
+    font-family: "Montserrat", sans-serif;
 }
 
 h1  {
@@ -13,7 +8,7 @@ h1  {
     right: 2%;
     font-size: 2em !important;
     color: black;
-    font-family: 'Alta', sans-serif;
+    font-family: "Montserrat", sans-serif;
     position: fixed;
 }
 
@@ -41,7 +36,7 @@ div#content {
 /* Navbar */
     nav.navbar {
         background-color: rgb(224, 232, 238) !important;
-        font-family: 'Alta', sans-serif;
+        font-family: "Montserrat", sans-serif;
         box-shadow:20px 20px 50px -10px rgba(0,0,0,.5);
         position: fixed; 
         width: 100%;
