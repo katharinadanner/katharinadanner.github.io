@@ -1,4 +1,7 @@
 /* ALLGEMEIN */ 
+body {
+    background-color: rgb(224, 232, 238) !important; 
+}
 
 /* Schrift */
 p {
@@ -27,20 +30,24 @@ p.bold {
     margin-bottom: 0 !important;
 }
 
+p.txt_large {
+    font-size: min(8vw, 80px) !important;
+}
+
 p.txt_big {
-    font-size: 8vw !important;
+    font-size: min(6vw, 60px) !important;
 }
 
 p.txt_medium {
-    font-size: 2.5vw !important;
+    font-size: min(2.5vw, 25px) !important;
 }
 
 p.txt_small {
-    font-size: 1.5vw !important;
+    font-size: min(1.5vw, 15px) !important;
 }
 
 p.txt_subtitle {
-    font-size: 1.3vw !important;
+    font-size: min(1.3vw, 13px) !important;
     color: grey;
 }
 
@@ -48,8 +55,11 @@ p.txt_subtitle {
 .container {
     min-width: 100% !important;
     min-height: 100vh;
-    background-color: rgb(224, 232, 238);
     padding-bottom: 15px;
+}
+
+.padding_top {
+    padding-top: 60px;
 }
 
 .clear_nav_bar {
@@ -65,6 +75,14 @@ div#content {
     width: 60%;
     margin: auto;
     display: block;
+}
+
+a.link {
+    color: #E0626A;
+}
+
+a.link:hover {
+    color: #EE7E6E;
 }
     
 /* Navbar */
