@@ -3,7 +3,8 @@
 }
 
 img.round_img {
-    width: 400px;
+    width:400px;
+    max-width: 40vw;
     border-radius: 15px 15px 15px 15px;
     box-shadow:20px 20px 50px -10px rgba(0,0,0,.5);
     margin-bottom: 15px;
