@@ -6,14 +6,9 @@ img.round_img {
     width: 400px;
     border-radius: 15px 15px 15px 15px;
     box-shadow:20px 20px 50px -10px rgba(0,0,0,.5);
+    margin-bottom: 15px;
 }
 
-p.intro_txt_big {
-    font-size: 6em !important;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-}
 
 
 

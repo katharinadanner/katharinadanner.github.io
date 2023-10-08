@@ -1,16 +1,31 @@
 /* ALLGEMEIN */ 
+
+/* Schrift */
 p {
     font-family: "Montserrat", sans-serif;
+    color: black;
 }
 
 h1  {
-    /* Schrift */
     right: 2%;
     font-size: 2em !important;
     color: black;
     font-family: "Montserrat", sans-serif;
     position: fixed;
 }
+
+p.centered {
+    text-align: center;
+}
+
+p.txt_big {
+    font-size: 6em !important;
+}
+
+p.txt_medium {
+    font-size: 2em !important;
+}
+
 
 .container {
     min-width: 100% !important;
