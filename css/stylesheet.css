@@ -18,6 +18,15 @@ p.centered {
     text-align: center;
 }
 
+p.no_margin {
+    margin: 0;
+}
+
+p.bold {
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
 p.txt_big {
     font-size: 8vw !important;
 }
@@ -26,11 +35,21 @@ p.txt_medium {
     font-size: 2.5vw !important;
 }
 
+p.txt_small {
+    font-size: 1.5vw !important;
+}
+
+p.txt_subtitle {
+    font-size: 1.3vw !important;
+    color: grey;
+}
+
 
 .container {
     min-width: 100% !important;
     min-height: 100vh;
     background-color: rgb(224, 232, 238);
+    padding-bottom: 15px;
 }
 
 .clear_nav_bar {
@@ -42,7 +61,7 @@ div#content {
     height: 100%;
 }
 
-#wip, img {
+#wip {
     width: 60%;
     margin: auto;
     display: block;
