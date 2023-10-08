@@ -31,23 +31,23 @@ p.bold {
 }
 
 p.txt_large {
-    font-size: min(8vw, 80px) !important;
+    font-size: max(min(8vw, 80px), 40px) !important;
 }
 
 p.txt_big {
-    font-size: min(6vw, 60px) !important;
+    font-size: max(min(6vw, 60px), 30px) !important;
 }
 
 p.txt_medium {
-    font-size: min(2.5vw, 25px) !important;
+    font-size: max(min(2.5vw, 25px), 15px) !important;
 }
 
 p.txt_small {
-    font-size: min(1.5vw, 15px) !important;
+    font-size: max(min(1.5vw, 15px), 12px) !important;
 }
 
 p.txt_subtitle {
-    font-size: min(1.3vw, 13px) !important;
+    font-size: max(min(1.3vw, 13px), 10px) !important;
     color: grey;
 }
 
