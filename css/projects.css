@@ -8,10 +8,10 @@
     max-width: 800px;
     width: 80%;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     align-self: center;
     padding: 15px;
-    z-index: 400;
+    background-color: rgb(224, 232, 238) !important; 
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
