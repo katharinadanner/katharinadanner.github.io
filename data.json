@@ -1,15 +1,15 @@
 {
     "pages": [
       {
-        "title": "Home",
+        "title": "HOME",
         "url": "index.html"
       },
       {
-        "title": "Projects",
+        "title": "PROJECTS",
         "url": "projects.html"
       },
       {
-        "title": "About Me",
+        "title": "ABOUT ME",
         "url": "aboutme.html"
       }
     ]
