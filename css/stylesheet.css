@@ -4,6 +4,7 @@
 p {
     font-family: "Montserrat", sans-serif;
     color: black;
+    cursor: default;
 }
 
 h1  {
@@ -12,6 +13,7 @@ h1  {
     color: black;
     font-family: "Montserrat", sans-serif;
     position: fixed;
+    cursor: default;
 }
 
 p.centered {
@@ -98,6 +100,7 @@ a.link:hover {
     }
     .nav-link:hover {
         color:rgb(180, 180, 180) !important;
+        cursor: pointer;
     }
 
     /*Button*/
