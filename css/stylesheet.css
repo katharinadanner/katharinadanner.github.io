@@ -58,6 +58,10 @@ p.txt_subtitle {
     background-color: rgb(240, 240, 240) ;
 }
 
+.body {
+    background-color: rgb(240, 240, 240) ;
+}
+
 .padding_top {
     padding-top: 60px;
 }
