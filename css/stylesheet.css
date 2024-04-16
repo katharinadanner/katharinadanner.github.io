@@ -182,15 +182,13 @@ a.link:hover {
             height: 100%; /* Set height of the icon */
           }
 
-        /* Change color of icon when hovered */
-        .material-symbols-outlined:hover {
-            color:rgb(180, 180, 180) !important;
-            cursor: pointer;
+        .material-symbols-outlined {
+            color:black !important;
         }
         
         .navbar-toggler.expanded .material-symbols-outlined {
-            color: #E0626A;
-          }
+            color: #E0626A !important;
+        }
 
         /* Fix height of navbar when collapsed */
         .navbar-collapse {
