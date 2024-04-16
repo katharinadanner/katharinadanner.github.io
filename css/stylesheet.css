@@ -127,5 +127,75 @@ a.link:hover {
         /* Adjust the styles for smaller screens */
         #heading {
           font-size: 1.5rem; /* Example font size for smaller screens */
+        }  
+
+        .navbar-collapse {
+            background-color: rgb(224, 232, 238);
+            position: absolute;
+            top: -9999px; /* Move off-screen initially */
+            left: 0;
+            width: max-content;
+            z-index: 1000; /* Ensure it's above other content */
+            padding-left: 1.5em;
+            padding-bottom: 1.5em;
         }
+
+        .navbar-collapse.show {
+            top: 100%; /* Move into view when expanded */
+            transition: top 0.3s ease; /* Add smooth transition */
+        }
+
+        .navbar-expand-sm .navbar-toggler {
+            position: relative; /* Ensure the toggle button doesn't affect positioning */
+        }
+
+        .navbar-toggler {
+            z-index: 1100; /* Ensure toggle button is above the expanded nav bar */
+            display: grid;
+            place-items: center; /* Center horizontally and vertically */
+            padding: 0; /* Remove default padding */
+            outline: none; /* Remove default focus outline */
+            position: relative;
+            width: 32px; /* Set width of the button */
+            height: 32px; /* Set height of the button */
+            transition: transform 0.3s;
+        }
+
+        .navbar-toggler:focus,
+        .navbar-toggler:hover,
+        .navbar-toggler:active {
+            outline: none !important;/* Remove default focus outline */
+            box-shadow: none !important; /* Remove default focus box-shadow */
+        }
+        
+        /* Rotate arrow up when navbar is expanded */
+        .navbar-toggler.expanded {
+            transform: rotate(180deg);
+        }
+
+        .navbar-toggler .navbar-toggler-icon {
+            position: absolute; /* Position the icon */
+            top: 50%; /* Move the icon 50% from the top */
+            left: 50%; /* Move the icon 50% from the left */
+            transform: translate(-50%, -50%); /* Center the icon */
+            width: 100%; /* Set width of the icon */
+            height: 100%; /* Set height of the icon */
+          }
+
+        /* Change color of icon when hovered */
+        .material-symbols-outlined:hover {
+            color:rgb(180, 180, 180) !important;
+            cursor: pointer;
+        }
+        
+        .navbar-toggler.expanded .material-symbols-outlined {
+            color: #E0626A;
+          }
+
+        /* Fix height of navbar when collapsed */
+        .navbar-collapse {
+            height: 100vh; /* Set height to viewport height */
+            overflow-y: auto; /* Enable vertical scrolling if needed */
+        }
+
       }

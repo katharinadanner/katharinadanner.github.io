@@ -1,0 +1,16 @@
+{
+    "pages": [
+      {
+        "title": "Home",
+        "url": "index.html"
+      },
+      {
+        "title": "Projects",
+        "url": "projects.html"
+      },
+      {
+        "title": "About Me",
+        "url": "aboutme.html"
+      }
+    ]
+  }
