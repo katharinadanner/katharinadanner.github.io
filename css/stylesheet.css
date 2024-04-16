@@ -55,6 +55,7 @@ p.txt_subtitle {
     min-width: 100% !important;
     min-height: 100vh;
     padding-bottom: 15px;
+    background-color: rgb(240, 240, 240) ;
 }
 
 .padding_top {
@@ -98,6 +99,7 @@ a.link:hover {
         color:black !important;
         padding-right: 1.5em !important;
     }
+
     .nav-link:hover {
         color:rgb(180, 180, 180) !important;
         cursor: pointer;
@@ -120,3 +122,10 @@ a.link:hover {
     text:hover {
         cursor: default;
     }
+
+    @media (max-width: 768px) {
+        /* Adjust the styles for smaller screens */
+        #heading {
+          font-size: 1.5rem; /* Example font size for smaller screens */
+        }
+      }

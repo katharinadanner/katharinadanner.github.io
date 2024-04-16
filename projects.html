@@ -26,8 +26,8 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav id="navbar" class="navbar navbar-expand-sm fixed-top" >
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+  <nav id="navbar" class="navbar navbar-expand-sm">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
@@ -39,18 +39,18 @@
           <a class="nav-link" href="projects.html" id="projects">PROJECTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+          <a class="nav-link" href="aboutme.html" id="aboutme">ABOUT ME</a>
         </li>
-        <h1 id="heading">KATHARINA DANNER</h1>
       </ul>
-</nav>
+    </div>
+    <h1 id="heading" class="navbar-brand">KATHARINA DANNER</h1>
+  </nav>
 
   <!--Content-->
   <div class="container">
     <div class="clear_nav_bar"></div>
     <!--APPS-->
     <p class="txt_big centered">Apps</p>
-
     <div class="project_card" id="project_1">
       <p class="txt_medium centered no_margin">FocusPocus</p>
       <p class="txt_subtitle centered">Master Thesis</p>
