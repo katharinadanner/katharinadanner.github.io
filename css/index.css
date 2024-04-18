@@ -2,11 +2,6 @@
     color: #E0626A !important;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-  }
-
 img.round_img {
     width:400px;
     max-width: 40vw;
@@ -17,29 +12,7 @@ img.round_img {
     display: block;
 }
 
-.button {
-    background-color: #E0626A;
-    border: none;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow:5px 5px 20px rgba(50, 50, 50, 0.5);
-    color: #f1f1f1;
-    font-family: "Montserrat", sans-serif;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: max(min(1.5vw, 15px), 12px) !important;
-    margin: 15px;
-    margin-bottom: 100px;
-}
 
-.button:hover {
-    background-color: #EE7E6E;
-    color: #f1f1f1;
-    text-decoration: none;
-    box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); /* Adjusted box-shadow on hover */
-    transform: translateY(2px); /* Move the button slightly down on hover */
-}
 
 
 

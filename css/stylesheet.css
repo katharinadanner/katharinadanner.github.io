@@ -86,10 +86,52 @@ span.tag {
 
 .tag_group {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
 }
 
+.margin_small {
+    margin: 5px;
+}
+
+.margin_medium {
+    margin: 15px;
+}
+
+.margin_large {
+    margin: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+  }
+
+.button {
+    background-color: #E0626A;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:5px 5px 20px rgba(50, 50, 50, 0.5);
+    color: #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: max(min(1.5vw, 15px), 12px) !important;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.button:hover {
+    background-color: #EE7E6E;
+    color: #f1f1f1;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); /* Adjusted box-shadow on hover */
+    transform: translateY(2px); /* Move the button slightly down on hover */
+}
     
 /* Navbar */
 .navbar {
@@ -230,6 +272,10 @@ p.txt_medium {
 
 p.txt_small {
     font-size: max(min(1.5vw, 15px), 12px) !important;
+}
+
+p.txt_tiny {
+    font-size: max(min(1.3vw, 13px), 10px) !important;
 }
 
 p.txt_subtitle {
