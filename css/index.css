@@ -21,7 +21,7 @@ img.round_img {
     background-color: #E0626A;
     border: none;
     border-radius: 5px 5px 5px 5px;
-    box-shadow:20px 20px 50px -10px rgba(50, 50, 50, 0.5);
+    box-shadow:5px 5px 20px rgba(50, 50, 50, 0.5);
     color: #f1f1f1;
     font-family: "Montserrat", sans-serif;
     padding: 10px 10px;
@@ -37,7 +37,8 @@ img.round_img {
     background-color: #EE7E6E;
     color: #f1f1f1;
     text-decoration: none;
-    box-shadow:10px 10px 25px -10px rgba(50, 50, 50, 0.5);
+    box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); /* Adjusted box-shadow on hover */
+    transform: translateY(2px); /* Move the button slightly down on hover */
 }
 
 
