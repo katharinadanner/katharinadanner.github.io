@@ -263,7 +263,7 @@ p.txt_large {
 }
 
 p.txt_big {
-    font-size: max(min(6vw, 60px), 30px) !important;
+    font-size: max(min(5vw, 50px), 25px) !important;
 }
 
 p.txt_medium {
