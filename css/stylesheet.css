@@ -81,6 +81,7 @@ span.tag {
     font-size: max(min(1.3vw, 13px), 10px) !important;
     font-weight: bold;
     margin: 5px;
+    text-align: center;
 }
 
 .tag_group {
