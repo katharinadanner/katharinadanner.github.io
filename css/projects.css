@@ -15,13 +15,16 @@
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.row {
+.img-row {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .column {
+  .img-column {
     flex: 33.33%;
     padding: 5px;
+    max-width: 300px;
   }
 
 .demo {

@@ -109,6 +109,10 @@ span.tag {
     justify-content: center;
   }
 
+.bottom-space {
+    margin-bottom: 100px;
+}
+
 .button {
     background-color: #E0626A;
     border: none;
@@ -122,7 +126,6 @@ span.tag {
     display: inline-block;
     font-size: max(min(1.5vw, 15px), 12px) !important;
     margin: 10px;
-    margin-bottom: 100px;
 }
 
 .button:hover {
