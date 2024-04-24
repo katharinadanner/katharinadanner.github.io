@@ -13,7 +13,7 @@
 }
 
 .large-image {
-    width: max(min(100vw, 1000px), 300px);
+    width: max(min(90vw, 900px), 300px);
     height: auto;
     display: block;
     margin: auto;
