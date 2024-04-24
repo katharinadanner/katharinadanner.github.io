@@ -12,8 +12,32 @@
     padding: 10px;
 }
 
+.large-image {
+    width: max(min(100vw, 1000px), 350px);
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.medium-image {
+    width: max(min(70vw, 700px), 350px);
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.margin-new {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 600px) {
     .column {
+        flex: 100%;
+    }
+
+    img.large-image {
         flex: 100%;
     }
 }
